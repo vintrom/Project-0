@@ -1,0 +1,16 @@
+$fw : bold;
+$c : "teal";
+
+.rating {
+	font-weight: $fw;
+	color : $c;
+}
+
+.posts_content {
+	img {
+		width: 80%;
+	}
+	p {
+		color: #191970;
+	}
+}

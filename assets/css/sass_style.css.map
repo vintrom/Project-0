@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,OAAQ,CACP,WAAW,CAJN,IAAI,CAKT,KAAK,CAJD,MAAM,CAQV,kBAAI,CACH,KAAK,CAAE,GAAG,CAEX,gBAAE,CACD,KAAK,CAAE,OAAO",
+"sources": ["../sass/sass_style.scss"],
+"names": [],
+"file": "sass_style.css"
+}

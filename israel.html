@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Interstellar page</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/sass_style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+	<main>
+		<header>
+			<div class="logo">
+				<div class="logo_text">
+					<h1><a href="index.html">Vintrom Travel Blog</a></h1>
+					<h2>Подорож — ось що приносить нам радість, а не мета.</h2>
+				</div>
+			</div>
+			<div class="menubar">
+				<ul class="menu">
+					<li><a href="index.html">Головна</a></li>
+					<li><a href="travels.html">Подорожі</a></li>
+					<li><a href="rating.html">Рейтинг подорожей</a></li>
+					<li><a href="contact.html">Контакти</a></li>
+				</ul>
+			</div>
+		</header>
+
+		<div class="site_content">
+			<div class="sidebar_container">
+				<div class="sidebar">
+					<h2>Пошук</h2>
+					<form method="post" action="#" id="search_form">
+						<input type="search" name="search_field" placeholder="Ваш запит" />
+						<input type="submit" class="btn" value="знайти" />
+					</form>
+				</div>
+				<div class="sidebar">
+					<h2>Вхід</h2>
+					<form method="post" action="#" id="login">
+						<input type="text" name="login_field" placeholder="Логін" />			
+						<input type="password" name="password_field" placeholder="Пароль" />
+						<input type="submit" class="btn" value="війти" />
+						<div class="lables_pasreg_text">
+							<span><a href="#">Забули пароль?</a></span> | <span><a href="#">Реєстрація</a></span>
+						</div>
+					</form>
+				</div>
+				<div class="sidebar">
+					<h2>Рейтинг подорожей</h2>
+					<ul>
+						<li><a href="egypt.html">Єгипт</a><span class="rating_sidebar">8.1</span></li>
+						<li><a href="turkye.html">Туреччина</a><span class="rating_sidebar">8.0</span></li>
+						<li><a href="israel.html">Ізраїль</a><span class="rating_sidebar">7.5</span></li>
+					</ul>
+				</div>
+			</div>
+			<div class="content">
+				<h1>Ізраїль</h1>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/AoizSL-TEJQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				<div class="info_travel_page">
+					<span class="label">Рейтинг: </span><span class="value">7.5/10</span>
+					<span class="label">Рік: </span><span class="value">2016</span>
+				</div>
+				<hr>
+				<div class="description_travel">
+					<img src="assets/img/israel.jpg" alt="Israel">
+					<p>Держа́ва Ізра́їль — країна в південно-західній Азії на південно-східному узбережжі Середземного моря.</p>
+					<p>На півночі межує з Ліваном, на північному сході — з Сирією, на сході — з Йорданією, на південному заході — з Єгиптом.</p>
+					<p>Незалежність держави проголошено 14 травня 1948 року, на підставі резолюції Генеральної Асамблеї ООН № 181 від 29 листопада 1947 року.</p>
+					<p>Згідно з Декларацією Незалежності, Ізраїль є єврейською державою. Водночас Ізраїль є багатонаціональною та демократичною державою, де, разом з євреями, рівні права мають всі інші релігійні та етнічні групи: араби-мусульмани, араби-християни, друзи, бедуїни та ін. Зокрема, арабські партії та депутати представлені в Кнесеті.</p>
+				</div>
+				<hr>
+				<h2>Відгуки про Ізраїль</h2>
+				<div class="send">
+					<form method="post" action="#" id="review">
+						<input type="text" name="review_name" placeholder="your name">
+						<textarea name="review_text"></textarea>
+						<input type="submit" value="Надіслати">
+					</form>
+				</div>
+
+			</div>
+		</div>
+		<footer>
+			<p>
+				<a href="index.html">Головна</a> |
+				<a href="travels.html">Подорожі</a> |
+				<a href="rating.html">Рейтинг подорожей</a> |
+				<a href="contact.html">Контакти</a>
+			</p>
+			<p>VINTROM 2018</p>
+		</footer>
+	</main>
+
+</body>
+</html>
